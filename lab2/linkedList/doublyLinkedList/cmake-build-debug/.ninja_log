@@ -1,0 +1,21 @@
+# ninja log v5
+1	2580	7553594133666230	CMakeFiles/doublyLinkedList.dir/main.cpp.obj	bfa6d5c8a926edb8
+2587	3397	7553594141757219	doublyLinkedList.exe	488f1c025a4bd3fd
+11	1488	7553640073762413	CMakeFiles/doublyLinkedList.dir/main.cpp.obj	bfa6d5c8a926edb8
+1489	1774	7553640076501792	doublyLinkedList.exe	488f1c025a4bd3fd
+9	1253	7553640846810769	CMakeFiles/doublyLinkedList.dir/main.cpp.obj	bfa6d5c8a926edb8
+1254	1514	7553640849301153	doublyLinkedList.exe	488f1c025a4bd3fd
+10	1145	7553641271011850	CMakeFiles/doublyLinkedList.dir/main.cpp.obj	bfa6d5c8a926edb8
+1146	1400	7553641273476363	doublyLinkedList.exe	488f1c025a4bd3fd
+11	1797	7553641412999609	CMakeFiles/doublyLinkedList.dir/main.cpp.obj	bfa6d5c8a926edb8
+1798	2098	7553641415880962	doublyLinkedList.exe	488f1c025a4bd3fd
+8	1165	7553641491816094	CMakeFiles/doublyLinkedList.dir/main.cpp.obj	bfa6d5c8a926edb8
+1166	1417	7553641494237363	doublyLinkedList.exe	488f1c025a4bd3fd
+8	1178	7553642709464795	CMakeFiles/doublyLinkedList.dir/main.cpp.obj	bfa6d5c8a926edb8
+1179	1430	7553642711855300	doublyLinkedList.exe	488f1c025a4bd3fd
+9	1398	7553643394518787	CMakeFiles/doublyLinkedList.dir/main.cpp.obj	bfa6d5c8a926edb8
+1398	1643	7553643396866199	doublyLinkedList.exe	488f1c025a4bd3fd
+14	1874	7553645152337051	CMakeFiles/doublyLinkedList.dir/main.cpp.obj	bfa6d5c8a926edb8
+1875	2194	7553645155386027	doublyLinkedList.exe	488f1c025a4bd3fd
+11	1148	7553647460762180	CMakeFiles/doublyLinkedList.dir/main.cpp.obj	bfa6d5c8a926edb8
+1149	1401	7553647463171094	doublyLinkedList.exe	488f1c025a4bd3fd
