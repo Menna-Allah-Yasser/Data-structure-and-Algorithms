@@ -1,0 +1,77 @@
+/////https://leetcode.com/problems/reverse-linked-list/description/
+
+/**
+ * Definition for singly-linked list.
+ * struct ListNode {
+ *     int val;
+ *     ListNode *next;
+ *     ListNode() : val(0), next(nullptr) {}
+ *     ListNode(int x) : val(x), next(nullptr) {}
+ *     ListNode(int x, ListNode *next) : val(x), next(next) {}
+ * };
+ */
+class Solution {
+public:
+    ListNode* reverseList(ListNode* head) {
+        ListNode *prev=nullptr;
+        ListNode *current=head;
+        ListNode *next=nullptr;
+
+         while(current != nullptr){
+            next = current->next;
+            current->next=prev;
+            prev=current;
+            current = next;
+         }
+         head=prev;
+         return head;
+
+
+    }
+};
+
+
+
+____________________________________________________________________
+
+
+////https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/description/
+
+/**
+ * Definition for singly-linked list.
+ * struct ListNode {
+ *     int val;
+ *     ListNode *next;
+ *     ListNode() : val(0), next(nullptr) {}
+ *     ListNode(int x) : val(x), next(nullptr) {}
+ *     ListNode(int x, ListNode *next) : val(x), next(next) {}
+ * };
+ */
+class Solution {
+public:
+    int getDecimalValue(ListNode* head) {
+        string s="";
+        ListNode *current=head;
+        while(current!=nullptr){
+            string t= to_string(current->val);
+            s+=t;
+            current=current->next;
+        }
+
+        int ans=convertBinaryToDecimal(s);
+        return ans;
+    }
+
+    int convertBinaryToDecimal(string s){  //11110
+    reverse(s.begin(), s.end());
+    int c=0 , ans=0;
+    for(int i=0 ; i<s.size(); i++){
+        if(s[i]=='1'){
+            ans+=pow(2 , c);
+        }
+       c++;
+   }
+    return ans;
+}
+};
+
